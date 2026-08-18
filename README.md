@@ -62,11 +62,15 @@ mvn clean install
 
 ## Testing y coverage
 
-Se han implementado 10 tests con JUnit 5 que cubren las tres tareas del ejercicio: parseo de cada nivel de log, manejo de niveles desconocidos (`UNKNOWN`) y conversión al formato corto.
+Se ha utilizado la suite de tests oficial del ejercicio en Exercism (`LogsLogsLogsTest`), con 15 tests implementados con JUnit 5 y AssertJ, que cubren las tres tareas: parseo de cada nivel de log, manejo de niveles desconocidos (`UNKNOWN`) y conversión al formato corto.
 
 Todos los tests pasan correctamente, como se ve en la siguiente captura del panel Testing de VS Code:
 
 <a href="screenshots/01-tests-pasados.png"><img src="screenshots/01-tests-pasados.png" width="400"></a>
+
+La cobertura de código, medida con JaCoCo, es del 98% de instrucciones y 93% de ramas:
+
+<a href="screenshots/02-jacoco-coverage.png"><img src="screenshots/02-jacoco-coverage.png" width="500"></a>
 
 ## Autora
 
