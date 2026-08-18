@@ -1,6 +1,6 @@
 # Logs, Logs, Logs
 
-Ejercicio del Java Track de [Exercism](https://exercism.org/) centrado en el uso de **enums** en Java, aplicados al parseo y transformación de líneas de log.
+Ejercicio de Java centrado en el uso de **enums** en Java, aplicados al parseo y transformación de líneas de log.
 
 ## Índice
 
